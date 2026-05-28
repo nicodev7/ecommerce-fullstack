@@ -1,0 +1,12 @@
+# Backend
+ecommerce-api/venv/
+ecommerce-api/__pycache__/
+ecommerce-api/.pytest_cache/
+ecommerce-api/*.pyc
+ecommerce-api/.env
+# Frontend
+ecommerce-frontend/node_modules/
+ecommerce-frontend/dist/
+ecommerce-frontend/.env
+# PDF
+generate-pdf.py
