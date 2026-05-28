@@ -8,3 +8,6 @@ export const getOrder = (id) =>
 
 export const createOrder = () =>
   client.post('/orders/').then((r) => r.data)
+
+export const updateOrderStatus = (id, status) =>
+  client.patch(`/orders/${id}/status`, { status }).then((r) => r.data)
